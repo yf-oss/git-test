@@ -1,8 +1,8 @@
-# gittest
+# git-test
 git测试学习
 
 1、先pull，再commit,然后push上传
-#第一次提交前需要先pull
+#每一次提交前需要先pull
 (1)、git pull origin master:master
 #origin是配置远程仓库地址的别名，第一个master是远程分支，第二个是本地分支
 (2)、git commit -m "提交信息"
