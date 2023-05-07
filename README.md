@@ -9,6 +9,15 @@ git测试学习
 (4)、git push origin master:master 注：第一个master是本地分支，第二个是远程分支git
 
 2、出现的问题：
-error: failed to push some refs to 'https://github.com/yf-oss/gittest.git'
+（1）error: failed to push some refs to 'https://github.com/yf-oss/gittest.git'
 解决:先git push origin master -f（会覆盖原来的内容），然后再git push origin master:master
+（2）命令git branch出现* (no branch, rebasing master)或git push origin master出现 
+Everything up-to-date
+解决：git add .
+     git commit -m "提交信息"
+     git rebase --continue
+     再git commit -m "提交信息"
+     git push origin master
+
+
 
