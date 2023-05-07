@@ -13,11 +13,11 @@ git测试学习
 解决:先git push origin master -f（会覆盖原来的内容），然后再git push origin master:master
 （2）命令git branch出现* (no branch, rebasing master)或git push origin master出现 
 Everything up-to-date
-解决：git add .
-     git commit -m "提交信息"
-     git rebase --continue
-     再git commit -m "提交信息"
-     git push origin master
+解决：(1)、git add .
+(2)、git commit -m "提交信息"
+(3)、git rebase --continue
+(4)、再git commit -m "提交信息"
+(5)、git push origin master
 
 
 
