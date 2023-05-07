@@ -5,6 +5,7 @@ git测试学习
 #每一次提交前需要先pull
 (1)、git pull origin master:master
 #origin是配置远程仓库地址的别名，第一个master是远程分支，第二个是本地分支
+(1)、添加文件到暂存区：git add .
 (2)、git commit -m "提交信息"
 (3)、git push origin master:master
 
